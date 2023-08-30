@@ -22,6 +22,9 @@ jobs:
 
     runs-on: ubuntu-latest
     #    runs-on: windows-latest
+    
+    environment:
+      name: IMAOTAI_20230830
 
     steps:
       - uses: actions/checkout@v3
